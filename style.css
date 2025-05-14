@@ -65,10 +65,23 @@ footer {
 }
 
 #autokep {
-    width: 50%;
-    float: right;
-    height: 350%;
+    width: 59%;
+    float: inline-end;
 }
 iframe {
+    float: right;
+} 
+
+li, p {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#automotor {
+    width: 60%;
+    height: 150px;
     float: right;
 }
