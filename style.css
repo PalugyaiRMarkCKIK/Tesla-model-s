@@ -6,6 +6,8 @@ body {
     background-color: #f2f2f2;
     color: #333;
     background-image: url(tesla-model-s.avif);
+} {
+    position: fixed;
 }
 
 header {
@@ -94,4 +96,10 @@ h3 {
 
 .cimek {
     font-family: sans-serif;
+}
+p>a{
+    color: #cc0000;
+    text-decoration: none;
+    font-size: 9;
+    font-weight: bold;
 }
