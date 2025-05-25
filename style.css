@@ -167,3 +167,13 @@ table{
 td{
     font-size: 16px;
 }
+
+.jellemzok{
+    font-size: 20px;
+}
+
+#főcím{
+    color: #cc0000;
+    font-size: 35px;
+    font-family: sans-serif;
+}
