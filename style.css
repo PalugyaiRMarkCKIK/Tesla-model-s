@@ -100,10 +100,6 @@ footer {
     width: 59%;
     float: inline-end;
 }
-video {
-    float: right;
-    width: 50%;
-} 
 
 li, p {
     font-size: 21px;
@@ -143,4 +139,31 @@ h3 {
 .box:hover a {
     background-color: red;
     color: white;
+}
+
+.video-jobbra{
+    float: right;
+    width: 550px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.focim{
+    color: #cc0000;
+    size: 500px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.alcim{
+    font-size: 25px;
+}
+
+table{
+    width: 40%;
+}
+
+
+td{
+    font-size: 16px;
 }
