@@ -80,10 +80,6 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
-
-<<<<<<< HEAD
-.box a {
-=======
 h1, h2 {
     color: #cc0000;
 }
@@ -106,6 +102,7 @@ footer {
 }
 video {
     float: right;
+    width: 50%;
 } 
 
 li, p {
@@ -131,7 +128,6 @@ h3 {
     font-family: sans-serif;
 }
 .box a{
->>>>>>> 853f22605ae41776323f2ddc774cd2a72bd983b0
     display: inline-block;
     background-color: black;
     color: white; 
@@ -140,11 +136,8 @@ h3 {
     transition: color 0.3s ease;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-=======
->>>>>>> 853f22605ae41776323f2ddc774cd2a72bd983b0
 }
 
 .box:hover a {
