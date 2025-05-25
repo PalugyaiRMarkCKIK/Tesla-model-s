@@ -1,25 +1,15 @@
-/* style.css */
-
+/* Alap testreszabások */
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f2f2;
     color: #333;
     background-image: url(beehive-black-honeycomb-red-hexagon-3840x2160-c2-000000-b22222-l2-5-75-a-50-f-5.svg);
 }
 
-header {
-    background-color: #111;
-    padding: 20px 0;
-    text-align: center;
-    color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
+/* Navigáció fekete háttérrel */
 nav {
-    background-color: #222;
+    background-color: #000000; /* fekete */
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -28,18 +18,60 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #e0e0e0; /* világosabb szürke a kontraszthoz */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     padding: 10px 20px;
     border-radius: 6px;
     transition: background 0.3s;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 nav a:hover {
-    background-color: #cc0000;
+    background-color: #cc0000; /* piros hover */
+    color: white;
 }
 
+/* Lábléc fekete háttérrel */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* fekete */
+    color: #ccc;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+}
+
+/* Fejléc */
+header {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+}
+
+/* Címek */
+h1, h2 {
+    color: #cc0000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* Listák és szövegek */
+li, p {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Egyéb elemek stílusa */
 main {
     padding: 40px;
     max-width: 900px;
@@ -49,53 +81,7 @@ main {
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-h1, h2 {
-    color: #cc0000;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: #ccc;
-    margin-top: 40px;
-}
-
-#autokep {
-    width: 59%;
-    float: inline-end;
-}
-iframe {
-    float: right;
-} 
-
-li, p {
-    font-size: 21px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-#automotor {
-    width: 60%;
-    height: 150px;
-    float: right;
-}
-
-#Tesla_model_erintokepernyo {
-    float: right;
-    width: 50%;
-}
-
-.cimek {
-    font-family: sans-serif;
-}
-.box a{
+.box a {
     display: inline-block;
     background-color: black;
     color: white; 
@@ -104,9 +90,11 @@ h3 {
     transition: color 0.3s ease;
     text-decoration: none;
     font-weight: bold;
-    font-size: 9;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.box:hover a{
+.box:hover a {
     background-color: red;
+    color: white;
 }
