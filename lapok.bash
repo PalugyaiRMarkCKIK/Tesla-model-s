@@ -1,8 +1,8 @@
-/tesla-site/
-│
+projekt/
 ├── index.html
 ├── altalanos.html
 ├── muszaki.html
 ├── extrak.html
-└── style.css
+├── statisztika.html   # <-- ezt teszem hozzá
+├── style.css
 
