@@ -178,3 +178,13 @@ td{
     font-size: 35px;
     font-family: sans-serif;
 }
+
+.thumbnails{
+    width: 500px;
+    height: 300px;
+}
+
+#kulonkep{
+    height: 300px;
+    width: 300px;
+}
